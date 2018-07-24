@@ -1,0 +1,25 @@
+service: signbunny-plz
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  memorySize: 128
+  timeout: 30
+
+environment:
+  TWITTER_CONSUMER_KEY:
+  TWITTER_CONSUMER_SECRET:
+  TWITTER_ACCESS_TOKEN:
+  TWITTER_ACCESS_TOKEN_SECRET:
+  TWITTER_HANDLE: signbunnyplz
+
+functions:
+  fetchMentions:
+    handler: handler.fetchMentions
+    events:
+      - schedule: rate(5 minutes)
+  sendTweet:
+    handler: handler.sendTweet
+    events:
+      - sns: newMention
