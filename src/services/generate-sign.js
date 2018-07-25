@@ -18,6 +18,15 @@ const RABBIT = `${SPACE.EM.repeat(4)}(\\__/)   ||
 ${SPACE.EM.repeat(4)}(•ㅅ•)   ||
 ${SPACE.EM.repeat(3)}  /  　  づ`
 
+
+// TODO
+// Add wrapping and/or maxLength checks?
+// I bet Emojis will bork this up (String.split() doesn't like ZWJ)
+
+// Turns out Text Centering is a nightmare
+// Unless I hardcode all of the widths of alphabetical characters 
+// and loop thru to get an approximate total pixel width per line
+// I don't think it's going to happen
 const GenerateSign = (text) => {
     text = text.split('\n')
         .map(t => t.trim())
