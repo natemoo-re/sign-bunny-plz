@@ -5,7 +5,7 @@ Twitter Bot built with Node, AWS Lamdba, and AWS SNS
 
 
 ┌───────────┐  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tweet @ me](https://twitter.com/intent/tweet?text=%40signbunnyplz%20Hello%20world!)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tweet @ me](https://twitter.com/intent/tweet?text=%40signbunnyplz%20Hello%20world)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and I'll reply with your  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;message in a sign!  
 └───────────┘  
