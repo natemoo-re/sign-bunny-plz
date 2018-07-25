@@ -5,7 +5,7 @@ Twitter Bot built with Node, AWS Lamdba, and AWS SNS
 
 
 ┌───────────┐  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tweet at me
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tweet at me  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and I'll reply with your  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;message in a sign!  
 └───────────┘  
